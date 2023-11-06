@@ -1,0 +1,17 @@
+@relation hospital
+
+@attribute HospitalName {Apollo,Kem,Wanless,Lilawati,AIIMS}
+@attribute Location {Pune,Mumbai,Miraj,Delhi}
+@attribute TotalBeds numeric
+@attribute TotalDoctors numeric
+@attribute TotalNurses numeric
+@attribute TotalPatients numeric
+@attribute TotalSurgeryCount numeric
+
+@data
+Apollo,Pune,600,60,120,400,150
+Kem,Mumbai,500,50,100,350,120
+Wanless,Miraj,450,45,90,300,110
+Lilawati,Mumbai,550,55,110,380,130
+AIIMS,Delhi,800,80,160,550,180
+

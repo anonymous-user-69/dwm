@@ -1,0 +1,15 @@
+@relation college
+
+@attribute College {Coep,MIT,Sgu,SirJJ,Walchand,Thomas}
+@attribute Location {Pune,Kolhapur,Mumbai,Sangli}
+@attribute Enrollment numeric
+@attribute AcceptanceRate numeric
+@attribute Fees numeric
+
+@data
+Coep,Pune,20000,5,150000
+MIT,Pune,11000,7,155000
+Sgu,Kolhapur,16000,4,252000
+SirJJ,Mumbai,8000,6,348000
+Walchand,Sangli,13000,6,451000
+Thomas,Mumbai,2200,8,353000
